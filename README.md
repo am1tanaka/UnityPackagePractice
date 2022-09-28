@@ -23,6 +23,7 @@
 ## チェック方法
 
 1. 新規プロジェクトを作成して、Package Managerで以下の2つのgitリポジトリーを登録します
+  - `https://github.com/am1tanaka/UnityPackagePractice.git?path=/Assets/AM1PracticeCommon`
   - `https://github.com/am1tanaka/UnityPackagePractice.git?path=/Assets/AM1PackageA`
   - `https://github.com/am1tanaka/UnityPackagePractice.git?path=/Assets/AM1PackageB`
 1. シーンに空のゲームオブジェクトを作成します
