@@ -37,6 +37,7 @@
 ## dependenciesについて
 Unity2021.3.10f1の段階では、Package Managerはgitへの依存は非対応です。書く場合はプロジェクトのmanifest.jsonへ書くようです。Package Managerからは個別にgitのURLを指定してインストールします。
 
+npmjs.com などにパッケージをアップロードして公開すれば、Project SettingsのPackage ManagerからScoped Registryに登録して、まとめて自作ライブラリを管理できるようです。これをやれば依存関係をバージョン指定で解決できそうです。
 
 ## ライセンス
 [MIT License](./LICENSE.md)
@@ -47,3 +48,5 @@ Copyright (c) 2022 Yu Tanaka
 - [Unityマニュアル. カスタムパッケージの作成](https://docs.unity3d.com/ja/2021.3/Manual/CustomPackages.html)
 - [Unityマニュアル. Gitの依存関係](https://docs.unity3d.com/ja/2021.3/Manual/upm-git.html)
 - [Unityマニュアル. パッケージマニフェスト](https://docs.unity3d.com/ja/2021.3/Manual/upm-manifestPkg.html)
+- https://www.npmjs.com/
+- [凹. Unity で自作ライブラリの Package Manager / Scoped Registry 対応をしてみた](https://tips.hecomi.com/entry/2021/12/19/003344)
