@@ -22,7 +22,7 @@
 
 ## チェック方法
 
-1. 新規プロジェクトを作成して、Package Managerで以下の2つのgitリポジトリーを登録します
+1. 新規プロジェクトを作成して、Package Managerで以下の順に3つのgitリポジトリーを登録します
   - `https://github.com/am1tanaka/UnityPackagePractice.git?path=/Assets/AM1PracticeCommon`
   - `https://github.com/am1tanaka/UnityPackagePractice.git?path=/Assets/AM1PackageA`
   - `https://github.com/am1tanaka/UnityPackagePractice.git?path=/Assets/AM1PackageB`
@@ -33,6 +33,9 @@
   - `PracticeB`
 
 以上でPlayして、画面に「Package A <フレーム数>」と「Package B <フレーム数>」が表示されれば正常に動作しています。
+
+## dependenciesについて
+Unity2021.3.10f1の段階では、Package Managerはgitへの依存は非対応です。書く場合はプロジェクトのmanifest.jsonへ書くようです。Package Managerからは個別にgitのURLを指定してインストールします。
 
 
 ## ライセンス
