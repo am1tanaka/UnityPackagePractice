@@ -14,6 +14,6 @@
     "url": "https://am1.jp/"
   },
   "dependencies": {
-    "jp.am1.practicecommon": "file:E:/UnityProjects/UnityPackagePractice/Assets/AM1PracticeCommon"
+    "jp.am1.practicecommon": "file:E:/UnityProjects/UnityPackagePractice/Assets/AM1PracticeCommon@0.1.0"
   }
 }
