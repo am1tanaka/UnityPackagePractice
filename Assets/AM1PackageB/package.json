@@ -1,0 +1,19 @@
+{
+  "name": "jp.am1.packageb",
+  "version": "0.1.0",
+  "displayName": "AM1 Package B",
+  "description": "This is a practice package B",
+  "unity": "2020.3",
+  "keywords": [
+    "unity",
+    "package"
+  ],
+  "author": {
+    "name": "Yu Tanaka",
+    "twitter": "@am1tanaka",
+    "url": "https://am1.jp/"
+  },
+  "dependencies": {
+    "jp.am1.practicecommon": "https://github.com/am1tanaka/UnityPackagePractice.git?path=/Assets/AM1PracticeCommon"
+  }
+}

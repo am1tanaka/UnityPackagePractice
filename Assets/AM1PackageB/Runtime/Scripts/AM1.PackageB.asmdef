@@ -1,0 +1,16 @@
+{
+    "name": "AM1.PackageB",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7a78af6f37f858f4d8fbc7663b59d312"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
